@@ -2,7 +2,6 @@
 
 namespace RabbitMq;
 
-use App\Queue\Connectors\RabbitMQConnector;
 use Illuminate\Queue\QueueManager;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Foundation\Application;
