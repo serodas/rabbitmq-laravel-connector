@@ -1,0 +1,23 @@
+{
+    "name": "serodas/rabbitmq-laravel-connector",
+    "description": "rabbitmq laravel connector and service provider",
+    "require": {
+        "laravel/framework": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "RabbitMq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samir Rodas",
+            "email": "serodas9710@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
